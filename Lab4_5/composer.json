@@ -1,0 +1,16 @@
+{
+
+    "autoload":{
+   "files": ["config.php"],
+
+    "classmap":["Model"]
+    },
+    "require": {
+        "illuminate/database": "^10.47"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
